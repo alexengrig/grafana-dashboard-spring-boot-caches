@@ -1,7 +1,7 @@
-# Grafana Dashboard: _Spring Boot Kafka Listeners_
+# Grafana Dashboard: _Spring Boot Caches_
 
 > To use this dashboard, import it from
-> [the official website](https://grafana.com/grafana/dashboards/20784-spring-boot-kafka-listeners)
+> [the official website](https://grafana.com/grafana/dashboards/20803-spring-boot-caches)
 > or use
 > [dashboard.json](dashboard.json).
 
@@ -12,10 +12,10 @@ of
 [Micrometer](https://micrometer.io)
 metrics from
 [Prometheus](https://prometheus.io))
-for `@KafkaListener` (by [Spring Kafka](https://spring.io/projects/spring-kafka)).
+for caches.
 
-[About metrics](https://docs.spring.io/spring-kafka/reference/kafka/micrometer.html#monitoring-listener-performance).
+[About metrics](https://github.com/micrometer-metrics/micrometer/blob/main/micrometer-core/src/main/java/io/micrometer/core/instrument/binder/cache/CacheMeterBinder.java).
 
 Supported Spring Boot `3.x`.
 
-See details in [GitHub](https://github.com/alexengrig/grafana-dashboard-spring-boot-kafka-listeners).
+See details in [GitHub](https://github.com/alexengrig/grafana-dashboard-spring-boot-caches).
